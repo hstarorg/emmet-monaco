@@ -4,6 +4,7 @@
   "description": "Emmet support for monaco.",
   "main": "index.js",
   "scripts": {
+    "dev": "gulp4",
     "test": "test"
   },
   "repository": {
@@ -20,5 +21,12 @@
   "bugs": {
     "url": "https://github.com/hstarorg/emmet-monaco/issues"
   },
-  "homepage": "https://github.com/hstarorg/emmet-monaco#readme"
+  "homepage": "https://github.com/hstarorg/emmet-monaco#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-preset-latest": "^6.24.1",
+    "gulp4": "^4.0.1",
+    "rollup": "^0.42.0",
+    "rollup-plugin-babel": "^2.7.1"
+  }
 }
