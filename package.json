@@ -1,0 +1,24 @@
+{
+  "name": "emmet-monaco",
+  "version": "0.1.0",
+  "description": "Emmet support for monaco.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hstarorg/emmet-monaco.git"
+  },
+  "keywords": [
+    "Emmet",
+    "monoca-editor",
+    "editor"
+  ],
+  "author": "Jay.M.Hu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hstarorg/emmet-monaco/issues"
+  },
+  "homepage": "https://github.com/hstarorg/emmet-monaco#readme"
+}
