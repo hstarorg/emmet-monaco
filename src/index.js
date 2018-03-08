@@ -19,7 +19,7 @@ const enableEmmet = (editor, emmet, options) => {
       word = emmet.utils.action.extractAbbreviation(lineContent.substring(0, pos.column));
     }
     // Get expand text
-    let expandText = expandAbbreviation(emmet, word, 'html');
+    let expandText = expandAbbreviation(emmet, word, 'html') || '\t';
     if (expandText) {
       // replace range content: pos.column , pos.column -word.length;
       let range = new monaco.Range(pos.lineNumber, pos.column - word.length, pos.lineNumber, pos.column);
